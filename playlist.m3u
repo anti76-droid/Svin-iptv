@@ -1,0 +1,54 @@
+#EXTM3U url-tvg="https://iptvx.one/EPG"
+
+# ===== 🇷🇺 РАЗВЛЕКАТЕЛЬНЫЕ =====
+#EXTINF:-1 tvg-id="tnt" group-title="RU Развлекательные",ТНТ
+http://tnt-online.ru/hls/playlist.m3u8
+
+#EXTINF:-1 tvg-id="sts" group-title="RU Развлекательные",СТС
+http://sts-online.ru/hls/playlist.m3u8
+
+#EXTINF:-1 tvg-id="pyatnica" group-title="RU Развлекательные",Пятница
+http://pyatnica.ru/hls/playlist.m3u8
+
+#EXTINF:-1 tvg-id="tv3" group-title="RU Развлекательные",ТВ‑3
+http://tv3.ru/hls/playlist.m3u8
+
+# ===== 🇷🇺 НОВОСТИ =====
+#EXTINF:-1 tvg-id="russia24" group-title="RU Новости",Россия 24
+http://vgtrk.cdnvideo.ru/russia24/playlist.m3u8
+
+#EXTINF:-1 tvg-id="rtvi" group-title="RU Новости",RTVI
+http://rtvi.cdnvideo.ru/rtvi/playlist.m3u8
+
+#EXTINF:-1 tvg-id="euronewsru" group-title="RU Новости",Euronews RU
+http://euronews-live.ru/hls/playlist.m3u8
+
+#EXTINF:-1 tvg-id="mir24" group-title="RU Новости",МИР 24
+http://hls.mirtv.cdnvideo.ru/mir24/playlist.m3u8
+
+# ===== 🇮🇱 ИЗРАИЛЬ =====
+#EXTINF:-1 tvg-id="kan11.il" group-title="IL Основные",Kan 11
+http://kan11-live.m3u8
+
+#EXTINF:-1 tvg-id="keshet12.il" group-title="IL Основные",Keshet 12
+http://keshet12-live.m3u8
+
+#EXTINF:-1 tvg-id="reshet13.il" group-title="IL Основные",Reshet 13
+http://reshet13-live.m3u8
+
+#EXTINF:-1 tvg-id="channel9.il" group-title="IL Русские",9 Канал
+http://channel9-live.m3u8
+
+# ===== ⚽ СПОРТ =====
+#EXTINF:-1 tvg-id="matchtv" group-title="RU Спорт",Матч ТВ
+http://matchtv-live.ru/hls/playlist.m3u8
+
+#EXTINF:-1 tvg-id="eurosport" group-title="RU Спорт",Eurosport
+http://eurosport.ru/hls/playlist.m3u8
+
+# ===== 🎬 ФИЛЬМЫ =====
+#EXTINF:-1 tvg-id="domkino" group-title="RU Фильмы",Дом Кино
+http://streaming.thestream.cyou/live/44.m3u8
+
+#EXTINF:-1 tvg-id="kinokomedia" group-title="RU Фильмы",Кинокомедия
+http://kino-komedia.ru/hls/playlist.m3u8
