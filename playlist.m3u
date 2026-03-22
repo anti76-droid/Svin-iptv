@@ -36,6 +36,30 @@ https://edge-tv-ll.facecast.io/evacoder_hls_hi/1080.m3u8
 #EXTINF:-1 tvg-id="rtd-ru" tvg-logo="https://iptvx.one/picons/rt-doc.png" group-title="Новости",RT Документальный
 http://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
 
+# ---------------------- Израиль — Рабочий ----------------------
+#EXTINF:-1 tvg-id="kan11" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6c/Kan_11_logo.svg" group-title="IL Общественные",KAN 11
+https://kan11.media.kan.org.il/hls/live/2024514/2024514/master.m3u8
+
+# ---------------------- Израиль — Требует VPN / нестабильные ----------------------
+#EXTINF:-1 tvg-id="reshet13" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/fb/Reshet_13_logo.svg" group-title="IL Общественные",Reshet 13 ⚠️
+http://example.com/reshet13/playlist.m3u8
+#EXTINF:-1 tvg-id="keshet12" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f8/Keshet_12_logo.svg" group-title="IL Общественные",Keshet 12 ⚠️
+http://example.com/keshet12/playlist.m3u8
+#EXTINF:-1 tvg-id="channel14" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f1/Channel_14_Israel_logo.svg" group-title="IL Общественные",Channel 14 ⚠️
+http://example.com/channel14/playlist.m3u8
+#EXTINF:-1 tvg-id="kan-edu" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d9/Kan_Educational_logo.svg" group-title="IL Общественные",Kan Educational ⚠️
+http://example.com/kan-edu/playlist.m3u8
+#EXTINF:-1 tvg-id="arutz10" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/77/Arutz_10_logo.svg" group-title="IL Общественные",Arutz 10 / TEN ⚠️
+http://example.com/arutz10/playlist.m3u8
+#EXTINF:-1 tvg-id="sport5" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/16/Sport_5_Israel_logo.svg" group-title="IL Спорт",Sport 5 ⚠️
+http://example.com/sport5/playlist.m3u8
+
+# ---------------------- Израиль — Новости ----------------------
+#EXTINF:-1 tvg-id="i24news-en" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/I24_News_logo.svg" group-title="Новости",i24News (EN) ⚠️
+http://example.com/i24news-en/playlist.m3u8
+#EXTINF:-1 tvg-id="i24news-he" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/I24_News_logo.svg" group-title="Новости",i24News (HE) ⚠️
+http://example.com/i24news-he/playlist.m3u8http://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
+
 # ---------------------- Израиль — Общественные ----------------------
 #EXTINF:-1 tvg-id="kan11" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6c/Kan_11_logo.svg" group-title="IL Общественные",KAN 11
 https://livestream.kan.org.il/live/kan11.m3u8
