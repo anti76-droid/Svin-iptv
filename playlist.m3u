@@ -1,41 +1,82 @@
 #EXTM3U url-tvg="https://iptvx.one/epg/epg_lite.xml.gz"
-#PLAYLIST:IPTVstable_IL_PLUS_NO_CHR
 
-#EXTINF:-1 tvg-id="pervy" tvg-logo="https://iptvx.one/picons/pervy.png" group-title="Общественные" ,1 канал HD
+# ---------------------- Россия — Общественные ----------------------
+#EXTINF:-1 tvg-id="pervy" tvg-logo="https://iptvx.one/picons/pervy.png" group-title="Общественные",1 канал HD
 https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
-#EXTINF:-1 tvg-id="cctv-ru" tvg-logo="https://iptvx.one/picons/cctv-ru.png" group-title="Общественные" ,CGTN Русский HD
-http://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
-#EXTINF:-1 tvg-id="stv-by" tvg-logo="https://iptvx.one/picons/stv-by.png" group-title="Общественные" ,CTV.BY HD
+#EXTINF:-1 tvg-id="cctv-ru" tvg-logo="https://iptvx.one/picons/cctv-ru.png" group-title="Общественные",CGTN Русский
+http://russian-livews.cgtn.com/hls/playlist.m3u8
+#EXTINF:-1 tvg-id="stv-by" tvg-logo="https://iptvx.one/picons/stv-by.png" group-title="Общественные",CTV.BY
 http://ctv.dc.beltelecom.by/ctv/ctv.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="rtvi" tvg-logo="https://iptvx.one/picons/rtvi.png" group-title="Общественные" ,RTVi
+#EXTINF:-1 tvg-id="rtvi" tvg-logo="https://iptvx.one/picons/rtvi.png" group-title="Общественные",RTVi
 http://178.134.1.158:8081/rtvi/index.m3u8
-#EXTINF:-1 tvg-id="tv-brics" tvg-logo="https://iptvx.one/picons/tv-brics.png" group-title="Общественные" ,TV BRICS
-http://brics.bonus-tv.ru/cdn/brics/russian/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="tro" tvg-logo="https://iptvx.one/picons/belros.png" group-title="Общественные",БелРос
-http://live2.mediacdn.ru/sr1/tro/playlist.m3u8
-#EXTINF:-1 tvg-id="bolshaya-azia" tvg-logo="https://iptvx.one/picons/bolshaya-azia.png" group-title="Общественные",Большая Азия HD
-https://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="vremia" tvg-logo="https://iptvx.one/picons/vremia.png" group-title="Общественные" ,Время
-https://cdn4.skygo.mn/live/disk1/Vremya/HLSv3-FTA/Vremya.m3u8
-#EXTINF:-1 tvg-id="zvezda" tvg-logo="https://iptvx.one/picons/zvezda.png" group-title="Общественные" ,Звезда HD
+#EXTINF:-1 tvg-id="zvezda" tvg-logo="https://iptvx.one/picons/zvezda.png" group-title="Общественные",Звезда
 http://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist_hdhigh.m3u8
 #EXTINF:-1 tvg-id="krasnaya-linia" tvg-logo="https://iptvx.one/picons/krasnaya-linia.png" group-title="Общественные",Красная линия
 https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="mir" tvg-logo="https://iptvx.one/picons/mir.png" group-title="Общественные" ,Мир
-http://194.158.222.36:6104
-#EXTINF:-1 tvg-id="neizvestnaya-rosia" tvg-logo="https://iptvx.one/picons/neizvestnaya-rosia.png" group-title="Общественные",Неизвестная Россия HD
-https://cdn.ntv.ru/unknown_russia/tracks-v1a1/playlist.m3u8
-#EXTINF:-1 tvg-id="ntv" tvg-logo="https://iptvx.one/picons/ntv.png" group-title="Общественные" ,НТВ HD
+#EXTINF:-1 tvg-id="ntv" tvg-logo="https://iptvx.one/picons/ntv.png" group-title="Общественные",НТВ
 https://cdn.ntv.ru/ntv0/playlist.m3u8
-#EXTINF:-1 tvg-id="ont-by" tvg-logo="https://iptvx.one/picons/ont-by.png" group-title="Общественные" ,ОНТ HD
-http://a0925677.xsph.ru/hls/blrus/CH_OHTHD.m3u8
-#EXTINF:-1 tvg-id="otr" tvg-logo="https://iptvx.one/picons/otr.png" group-title="Общественные",ОТР
-https://rt-nw-klgr-htlive.cdn.ngenix.net/hls/CH_R01_OTR_KLNG_FILIAL/variant.m3u8
-#EXTINF:-1 tvg-id="prnk-tv" tvg-logo="https://iptvx.one/picons/prnk-tv.png" group-title="Общественные" ,ПРНК HD
-https://serv25.vintera.tv/1pnk/prnk/chunks.m3u8
-#EXTINF:-1 tvg-id="5kanal-ru" tvg-logo="https://iptvx.one/picons/5kanal-ru.png" group-title="Общественные" ,Пятый канал
+#EXTINF:-1 tvg-id="5kanal-ru" tvg-logo="https://iptvx.one/picons/5kanal-ru.png" group-title="Общественные",Пятый канал
 http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
-#EXTINF:-1 tvg-id="rentv" tvg-logo="http://epg.one/img2/18.png" group-title="Общественные" ,Рен ТВ
+#EXTINF:-1 tvg-id="rentv" tvg-logo="http://epg.one/img2/18.png" group-title="Общественные",РЕН ТВ
+http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
+#EXTINF:-1 tvg-id="rossia1" tvg-logo="https://iptvx.one/picons/rossia1.png" group-title="Общественные",Россия 1 HD
+https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
+#EXTINF:-1 tvg-id="tv3-ru" tvg-logo="https://iptvx.one/picons/tv3-ru.png" group-title="Общественные",ТВ3
+https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8
+
+# ---------------------- Россия — Развлекательные ----------------------
+#EXTINF:-1 tvg-id="pyatnica" tvg-logo="https://iptvx.one/picons/pyatnica.png" group-title="Развлекательные",Пятница
+https://cdn-live.pyatnica.tv/pyatnica/playlist.m3u8
+#EXTINF:-1 tvg-id="che" tvg-logo="https://iptvx.one/picons/che.png" group-title="Развлекательные",Че!
+https://che-live.akamaized.net/hls/live.m3u8
+#EXTINF:-1 tvg-id="sts" tvg-logo="https://iptvx.one/picons/sts.png" group-title="Развлекательные",СТС
+https://sts-live.akamaized.net/hls/live.m3u8
+
+# ---------------------- Россия — Познавательные ----------------------
+#EXTINF:-1 tvg-id="terra-ru" tvg-logo="https://iptvx.one/picons/terra-ru.png" group-title="Познавательные",TERRA
+https://livetv.mylifeisgood.net.ru/channels/terra.m3u8
+#EXTINF:-1 tvg-id="univer-tv" tvg-logo="https://iptvx.one/picons/univer-tv.png" group-title="Познавательные",UNIVER
+https://cdn.universmotri.ru/live/hq.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="nauka-20" tvg-logo="https://iptvx.one/picons/nauka-20.png" group-title="Познавательные",Наука
+https://vod.tuva.ru/nauka2/index.m3u8
+#EXTINF:-1 tvg-id="kultura" tvg-logo="https://iptvx.one/picons/kultura.png" group-title="Познавательные",Россия К
+http://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/kultura-hd/index.m3u8
+#EXTINF:-1 tvg-id="natgeo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6d/National_Geographic_Channel_logo.svg" group-title="Познавательные",National Geographic
+https://natgeo-live.akamaized.net/hls/live.m3u8
+#EXTINF:-1 tvg-id="discovery" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/44/Discovery_Channel_logo.svg" group-title="Познавательные",Discovery
+https://discovery-live.akamaized.net/hls/live.m3u8
+#EXTINF:-1 tvg-id="history" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/History_Channel_logo.svg" group-title="Познавательные",History
+https://history-live.akamaized.net/hls/live.m3u8
+
+# ---------------------- Новости ----------------------
+#EXTINF:-1 tvg-id="360-news" tvg-logo="https://iptvx.one/picons/360-news.png" group-title="Новости",360 Новости
+https://edge-tv-ll.facecast.io/evacoder_hls_hi/1080.m3u8
+#EXTINF:-1 tvg-id="rtd-ru" tvg-logo="https://iptvx.one/picons/rt-doc.png" group-title="Новости",RT Документальный
+http://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
+
+# ---------------------- Израиль — Общественные ----------------------
+#EXTINF:-1 tvg-id="kan11" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6c/Kan_11_logo.svg" group-title="Общественные",KAN 11
+https://livestream.kan.org.il/live/kan11.m3u8
+#EXTINF:-1 tvg-id="reshet13" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/fb/Reshet_13_logo.svg" group-title="Общественные",Reshet 13
+https://reshet13-live.akamaized.net/hls/live.m3u8
+#EXTINF:-1 tvg-id="kts" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f8/Keshet_12_logo.svg" group-title="Общественные",Keshet 12
+https://keshet12-live.akamaized.net/hls/live.m3u8
+#EXTINF:-1 tvg-id="channel9" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4e/Channel_9_Israel_logo.svg" group-title="Общественные",9 канал
+https://9tv-live.akamaized.net/hls/live.m3u8
+#EXTINF:-1 tvg-id="channel14" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f1/Channel_14_Israel_logo.svg" group-title="Общественные",Channel 14
+https://channel14-live.akamaized.net/hls/live.m3u8
+#EXTINF:-1 tvg-id="kan-edu" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d9/Kan_Educational_logo.svg" group-title="Общественные",Kan Educational
+https://kan-edu-live.akamaized.net/hls/live.m3u8
+#EXTINF:-1 tvg-id="arutz10" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/77/Arutz_10_logo.svg" group-title="Общественные",Arutz 10 / TEN
+https://arutz10-live.akamaized.net/hls/live.m3u8
+#EXTINF:-1 tvg-id="sport5" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/16/Sport_5_Israel_logo.svg" group-title="Общественные",Sport 5
+https://sport5-live.akamaized.net/hls/live.m3u8
+
+# ---------------------- Израиль — Новости ----------------------
+#EXTINF:-1 tvg-id="i24news-en" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/I24_News_logo.svg" group-title="Новости",i24News (EN)
+https://live.i24news.tv/stream/hls-en.m3u8
+#EXTINF:-1 tvg-id="i24news-he" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/I24_News_logo.svg" group-title="Новости",i24News (HE)
+https://live.i24news.tv/stream/hls-he.m3u8#EXTINF:-1 tvg-id="rentv" tvg-logo="http://epg.one/img2/18.png" group-title="Общественные" ,Рен ТВ
 http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
 #EXTINF:-1 tvg-id="rossia1" tvg-logo="https://iptvx.one/picons/rossia1.png" group-title="Общественные" ,Россия 1 HD
 https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
