@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://iptvx.one/epg/epg_lite.xml.gz"
+#EXTM3U url-tvg="https://iptvx.one/epg/epg_lite.xml.gz,https://raw.githubusercontent.com/iptv-org/epg/master/iptv-org/epg-israel.xml"
 
 # ---------------------- Россия — Общественные ----------------------
 #EXTINF:-1 tvg-id="pervy" tvg-logo="https://iptvx.one/picons/pervy.png" group-title="RU Общественные",1 канал HD
@@ -35,6 +35,17 @@ https://history-live.akamaized.net/hls/live.m3u8
 https://edge-tv-ll.facecast.io/evacoder_hls_hi/1080.m3u8
 #EXTINF:-1 tvg-id="rtd-ru" tvg-logo="https://iptvx.one/picons/rt-doc.png" group-title="Новости",RT Документальный
 http://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
+
+# ---------------------- Израиль — Общественные ----------------------
+#EXTINF:-1 tvg-id="kan11" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6c/Kan_11_logo.svg" group-title="IL Общественные",KAN 11
+https://livestream.kan.org.il/live/kan11.m3u8
+#EXTINF:-1 tvg-id="reshet13" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/fb/Reshet_13_logo.svg" group-title="IL Общественные",Reshet 13
+https://reshet13-live.akamaized.net/hls/live.m3u8
+#EXTINF:-1 tvg-id="keshet12" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f8/Keshet_12_logo.svg" group-title="IL Общественные",Keshet 12
+https://keshet12-live.akamaized.net/hls/live.m3u8
+#EXTINF:-1 tvg-id="channel9" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4e/Channel_9_Israel_logo.svg" group-title="IL Общественные",9 канал
+https://9tv-live.akamaized.net/hls/live.m3u8
+#EXTINF:-1 tvg-id="channel14" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f1/Channel_14_Israel_logo.svg" group-title="IL Общественныеhttp://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
 
 # ---------------------- Израиль — Общественные ----------------------
 #EXTINF:-1 tvg-id="kan11" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6c/Kan_11_logo.svg" group-title="IL Общественные",KAN 11
