@@ -1,154 +1,54 @@
-#EXTM3U url-tvg="https://iptvx.one/epg/epg_lite.xml.gz,https://raw.githubusercontent.com/iptv-org/epg/master/iptv-org/epg-israel.xml"
+#EXTM3U url-tvg="https://iptvx.one/epg/epg.xml.gz"
 
----------------------- Россия — Общественные ----------------------
+########## 🇮🇱 ISRAEL ##########
+#EXTINF:-1 tvg-id="kan11.il" group-title="IL",KAN 11
+https://kan11-live.akamaized.net/hls/live/2033790/kan11/playlist.m3u8
+https://kan11-live.akamaized.net/hls/live/2033790/kan11/playlist.m3u8
 
-#EXTINF:-1 tvg-id="pervy" tvg-logo="https://iptvx.one/picons/pervy.png" group-title="RU Общественные",1 канал HD https://edge1.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd #EXTINF:-1 tvg-id="ntv" tvg-logo="https://iptvx.one/picons/ntv.png" group-title="RU Общественные",НТВ https://cdn.ntv.ru/ntv0/playlist.m3u8 #EXTINF:-1 tvg-id="5kanal-ru" tvg-logo="https://iptvx.one/picons/5kanal-ru.png" group-title="RU Общественные",Пятый канал http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8 #EXTINF:-1 tvg-id="rossia1" tvg-logo="https://iptvx.one/picons/rossia1.png" group-title="RU Общественные",Россия 1 HD https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
+#EXTINF:-1 tvg-id="makan33.il" group-title="IL",Makan 33
+https://makan33-live.akamaized.net/hls/live/2033791/makan33/playlist.m3u8
 
----------------------- Россия — Развлекательные ----------------------
+#EXTINF:-1 tvg-id="knesset.il" group-title="IL",Knesset
+https://knesset-live.akamaized.net/hls/live/2033792/knesset/playlist.m3u8
 
-#EXTINF:-1 tvg-id="sts" tvg-logo="https://iptvx.one/picons/sts.png" group-title="RU Развлекательные",СТС https://sts-live.akamaized.net/hls/live.m3u8 #EXTINF:-1 tvg-id="pyatnica" tvg-logo="https://iptvx.one/picons/pyatnica.png" group-title="RU Развлекательные",Пятница https://cdn-live.pyatnica.tv/pyatnica/playlist.m3u8 #EXTINF:-1 tvg-id="che" tvg-logo="https://iptvx.one/picons/che.png" group-title="RU Развлекательные",Че! https://che-live.akamaized.net/hls/live.m3u8 #EXTINF:-1 tvg-id="tnt" tvg-logo="https://iptvx.one/picons/tnt.png" group-title="RU Развлекательные",ТНТ https://tnt-live.akamaized.net/hls/live.m3u8 #EXTINF:-1 tvg-id="tv3" tvg-logo="https://iptvx.one/picons/tv3-ru.png" group-title="RU Развлекательные",ТВ3 https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8
+########## 🇷🇺 RUSSIA ##########
+#EXTINF:-1 tvg-id="pervy" group-title="RU",Первый канал
+https://edge1.1internet.tv/dash-live2/streams/1tv/1tv.mpd
+https://cdn.ntv.ru/streams/1tv/index.m3u8
 
----------------------- Россия — Познавательные ----------------------
+#EXTINF:-1 tvg-id="russia1" group-title="RU",Россия 1
+https://edge1.1internet.tv/dash-live2/streams/russia1/russia1.mpd
 
-#EXTINF:-1 tvg-id="natgeo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6d/National_Geographic_Channel_logo.svg" group-title="Познавательные",National Geographic https://natgeo-live.akamaized.net/hls/live.m3u8 #EXTINF:-1 tvg-id="discovery" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/44/Discovery_Channel_logo.svg" group-title="Познавательные",Discovery https://discovery-live.akamaized.net/hls/live.m3u8 #EXTINF:-1 tvg-id="history" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/History_Channel_logo.svg" group-title="Познавательные",History https://history-live.akamaized.net/hls/live.m3u8
+#EXTINF:-1 tvg-id="ntv" group-title="RU",НТВ
+https://edge1.1internet.tv/dash-live2/streams/ntv/ntv.mpd
 
----------------------- Россия — Новости ----------------------
+#EXTINF:-1 tvg-id="rentv" group-title="RU",РЕН ТВ
+https://edge1.1internet.tv/dash-live2/streams/rentv/rentv.mpd
 
-#EXTINF:-1 tvg-id="360-news" tvg-logo="https://iptvx.one/picons/360-news.png" group-title="Новости",360 Новости https://edge-tv-ll.facecast.io/evacoder_hls_hi/1080.m3u8 #EXTINF:-1 tvg-id="rtd-ru" tvg-logo="https://iptvx.one/picons/rt-doc.png" group-title="Новости",RT Документальный http://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
+#EXTINF:-1 tvg-id="sts" group-title="RU",СТС
+https://edge1.1internet.tv/dash-live2/streams/sts/sts.mpd
 
----------------------- Израиль — Рабочий ----------------------
+#EXTINF:-1 tvg-id="tnt" group-title="RU",ТНТ
+https://edge1.1internet.tv/dash-live2/streams/tnt/tnt.mpd
 
-#EXTINF:-1 tvg-id="kan11" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6c/Kan_11_logo.svg" group-title="IL Общественные",KAN 11 https://kan11.media.kan.org.il/hls/live/2024514/2024514/master.m3u8
+########## 🌍 NEWS ##########
+#EXTINF:-1 tvg-id="cnn" group-title="NEWS",CNN
+https://cnn-live.akamaized.net/hls/live/2033794/cnn/playlist.m3u8
 
----------------------- Израиль — Требует VPN / нестабильные ----------------------
+#EXTINF:-1 tvg-id="bbcworldnews" group-title="NEWS",BBC World
+https://bbcworldnews-live.akamaized.net/hls/live/2033793/bbc/playlist.m3u8
 
-#EXTINF:-1 tvg-id="reshet13" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/fb/Reshet_13_logo.svg" group-title="IL Общественные",Reshet 13 ⚠️ http://example.com/reshet13/playlist.m3u8 #EXTINF:-1 tvg-id="keshet12" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f8/Keshet_12_logo.svg" group-title="IL Общественные",Keshet 12 ⚠️ http://example.com/keshet12/playlist.m3u8 #EXTINF:-1 tvg-id="channel14" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f1/Channel_14_Israel_logo.svg" group-title="IL Общественные",Channel 14 ⚠️ http://example.com/channel14/playlist.m3u8 #EXTINF:-1 tvg-id="kan-edu" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d9/Kan_Educational_logo.svg" group-title="IL Общественные",Kan Educational ⚠️ http://example.com/kan-edu/playlist.m3u8 #EXTINF:-1 tvg-id="arutz10" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/77/Arutz_10_logo.svg" group-title="IL Общественные",Arutz 10 / TEN ⚠️ http://example.com/arutz10/playlist.m3u8 #EXTINF:-1 tvg-id="sport5" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/16/Sport_5_Israel_logo.svg" group-title="IL Спорт",Sport 5 ⚠️ http://example.com/sport5/playlist.m3u8
+########## ⚽ SPORTS ##########
+#EXTINF:-1 group-title="SPORT",Sport Backup 1
+http://example.com/sport1.m3u8
 
----------------------- Израиль — Новости ----------------------
+#EXTINF:-1 group-title="SPORT",Sport Backup 2
+http://example.com/sport2.m3u8
 
-#EXTINF:-1 tvg-id="i24news-en" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/I24_News_logo.svg" group-title="Новости",i24News (EN) ⚠️ http://example.com/i24news-en/playlist.m3u8 #EXTINF:-1 tvg-id="i24news-he" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/I24_News_logo.svg" group-title="Новости",i24News (HE) ⚠️ http://example.com/i24news-he/playlist.m3u8http://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
+########## 🎬 ENTERTAINMENT ##########
+#EXTINF:-1 tvg-id="2x2" group-title="RU",2x2
+https://edge1.1internet.tv/dash-live2/streams/2x2/2x2.mpd
 
-# ---------------------- Израиль — Рабочий ----------------------
-#EXTINF:-1 tvg-id="kan11" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6c/Kan_11_logo.svg" group-title="IL Общественные",KAN 11
-https://kan11.media.kan.org.il/hls/live/2024514/2024514/master.m3u8
-
-# ---------------------- Израиль — Требует VPN / нестабильные ----------------------
-#EXTINF:-1 tvg-id="reshet13" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/fb/Reshet_13_logo.svg" group-title="IL Общественные",Reshet 13 ⚠️
-http://example.com/reshet13/playlist.m3u8
-#EXTINF:-1 tvg-id="keshet12" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f8/Keshet_12_logo.svg" group-title="IL Общественные",Keshet 12 ⚠️
-http://example.com/keshet12/playlist.m3u8
-#EXTINF:-1 tvg-id="channel14" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f1/Channel_14_Israel_logo.svg" group-title="IL Общественные",Channel 14 ⚠️
-http://example.com/channel14/playlist.m3u8
-#EXTINF:-1 tvg-id="kan-edu" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d9/Kan_Educational_logo.svg" group-title="IL Общественные",Kan Educational ⚠️
-http://example.com/kan-edu/playlist.m3u8
-#EXTINF:-1 tvg-id="arutz10" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/77/Arutz_10_logo.svg" group-title="IL Общественные",Arutz 10 / TEN ⚠️
-http://example.com/arutz10/playlist.m3u8
-#EXTINF:-1 tvg-id="sport5" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/16/Sport_5_Israel_logo.svg" group-title="IL Спорт",Sport 5 ⚠️
-http://example.com/sport5/playlist.m3u8
-
-# ---------------------- Израиль — Новости ----------------------
-#EXTINF:-1 tvg-id="i24news-en" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/I24_News_logo.svg" group-title="Новости",i24News (EN) ⚠️
-http://example.com/i24news-en/playlist.m3u8
-#EXTINF:-1 tvg-id="i24news-he" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/I24_News_logo.svg" group-title="Новости",i24News (HE) ⚠️
-http://example.com/i24news-he/playlist.m3u8http://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
-
-# ---------------------- Израиль — Общественные ----------------------
-#EXTINF:-1 tvg-id="kan11" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6c/Kan_11_logo.svg" group-title="IL Общественные",KAN 11
-https://livestream.kan.org.il/live/kan11.m3u8
-#EXTINF:-1 tvg-id="reshet13" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/fb/Reshet_13_logo.svg" group-title="IL Общественные",Reshet 13
-https://reshet13-live.akamaized.net/hls/live.m3u8
-#EXTINF:-1 tvg-id="keshet12" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f8/Keshet_12_logo.svg" group-title="IL Общественные",Keshet 12
-https://keshet12-live.akamaized.net/hls/live.m3u8
-#EXTINF:-1 tvg-id="channel9" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4e/Channel_9_Israel_logo.svg" group-title="IL Общественные",9 канал
-https://9tv-live.akamaized.net/hls/live.m3u8
-#EXTINF:-1 tvg-id="channel14" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f1/Channel_14_Israel_logo.svg" group-title="IL Общественныеhttp://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
-
-# ---------------------- Израиль — Общественные ----------------------
-#EXTINF:-1 tvg-id="kan11" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6c/Kan_11_logo.svg" group-title="IL Общественные",KAN 11
-https://livestream.kan.org.il/live/kan11.m3u8
-#EXTINF:-1 tvg-id="reshet13" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/fb/Reshet_13_logo.svg" group-title="IL Общественные",Reshet 13
-https://reshet13-live.akamaized.net/hls/live.m3u8
-#EXTINF:-1 tvg-id="keshet12" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f8/Keshet_12_logo.svg" group-title="IL Общественные",Keshet 12
-https://keshet12-live.akamaized.net/hls/live.m3u8
-#EXTINF:-1 tvg-id="channel9" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4e/Channel_9_Israel_logo.svg" group-title="IL Общественные",9 канал
-https://9tv-live.akamaized.net/hls/live.m3u8
-#EXTINF:-1 tvg-id="channel14" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f1/Channel_14_Israel_logo.svg" group-title="IL Общественные",Channel 14
-https://channel14-live.akamaized.net/hls/live.m3u8
-#EXTINF:-1 tvg-id="kan-edu" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d9/Kan_Educational_logo.svg" group-title="IL Общественные",Kan Educational
-https://kan-edu-live.akamaized.net/hls/live.m3u8
-#EXTINF:-1 tvg-id="arutz10" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/77/Arutz_10_logo.svg" group-title="IL Общественные",Arutz 10 / TEN
-https://arutz10-live.akamaized.net/hls/live.m3u8
-#EXTINF:-1 tvg-id="sport5" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/16/Sport_5_Israel_logo.svg" group-title="IL Спорт",Sport 5
-https://sport5-live.akamaized.net/hls/live.m3u8
-
-# ---------------------- Израиль — Новости ----------------------
-#EXTINF:-1 tvg-id="i24news-en" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/I24_News_logo.svg" group-title="Новости",i24News (EN)
-https://live.i24news.tv/stream/hls-en.m3u8
-#EXTINF:-1 tvg-id="i24news-he" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/I24_News_logo.svg" group-title="Новости",i24News (HE)
-https://live.i24news.tv/stream/hls-he.m3u8https://livetv.mylifeisgood.net.ru/channels/terra.m3u8
-#EXTINF:-1 tvg-id="univer-tv" tvg-logo="https://iptvx.one/picons/univer-tv.png" group-title="Познавательные",UNIVER
-https://cdn.universmotri.ru/live/hq.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="nauka-20" tvg-logo="https://iptvx.one/picons/nauka-20.png" group-title="Познавательные",Наука
-https://vod.tuva.ru/nauka2/index.m3u8
-#EXTINF:-1 tvg-id="kultura" tvg-logo="https://iptvx.one/picons/kultura.png" group-title="Познавательные",Россия К
-http://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/kultura-hd/index.m3u8
-#EXTINF:-1 tvg-id="natgeo" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6d/National_Geographic_Channel_logo.svg" group-title="Познавательные",National Geographic
-https://natgeo-live.akamaized.net/hls/live.m3u8
-#EXTINF:-1 tvg-id="discovery" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/44/Discovery_Channel_logo.svg" group-title="Познавательные",Discovery
-https://discovery-live.akamaized.net/hls/live.m3u8
-#EXTINF:-1 tvg-id="history" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/27/History_Channel_logo.svg" group-title="Познавательные",History
-https://history-live.akamaized.net/hls/live.m3u8
-
-# ---------------------- Новости ----------------------
-#EXTINF:-1 tvg-id="360-news" tvg-logo="https://iptvx.one/picons/360-news.png" group-title="Новости",360 Новости
-https://edge-tv-ll.facecast.io/evacoder_hls_hi/1080.m3u8
-#EXTINF:-1 tvg-id="rtd-ru" tvg-logo="https://iptvx.one/picons/rt-doc.png" group-title="Новости",RT Документальный
-http://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
-
-# ---------------------- Израиль — Общественные ----------------------
-#EXTINF:-1 tvg-id="kan11" tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/6c/Kan_11_logo.svg" group-title="Общественные",KAN 11
-https://livestream.kan.org.il/live/kan11.m3u8
-#EXTINF:-1 tvg-id="reshet13" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/fb/Reshet_13_logo.svg" group-title="Общественные",Reshet 13
-https://reshet13-live.akamaized.net/hls/live.m3u8
-#EXTINF:-1 tvg-id="kts" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f8/Keshet_12_logo.svg" group-title="Общественные",Keshet 12
-https://keshet12-live.akamaized.net/hls/live.m3u8
-#EXTINF:-1 tvg-id="channel9" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4e/Channel_9_Israel_logo.svg" group-title="Общественные",9 канал
-https://9tv-live.akamaized.net/hls/live.m3u8
-#EXTINF:-1 tvg-id="channel14" tvg-logo="https://upload.wikimedia.org/wikipedia/en/f/f1/Channel_14_Israel_logo.svg" group-title="Общественные",Channel 14
-https://channel14-live.akamaized.net/hls/live.m3u8
-#EXTINF:-1 tvg-id="kan-edu" tvg-logo="https://upload.wikimedia.org/wikipedia/en/d/d9/Kan_Educational_logo.svg" group-title="Общественные",Kan Educational
-https://kan-edu-live.akamaized.net/hls/live.m3u8
-#EXTINF:-1 tvg-id="arutz10" tvg-logo="https://upload.wikimedia.org/wikipedia/en/7/77/Arutz_10_logo.svg" group-title="Общественные",Arutz 10 / TEN
-https://arutz10-live.akamaized.net/hls/live.m3u8
-#EXTINF:-1 tvg-id="sport5" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/16/Sport_5_Israel_logo.svg" group-title="Общественные",Sport 5
-https://sport5-live.akamaized.net/hls/live.m3u8
-
-# ---------------------- Израиль — Новости ----------------------
-#EXTINF:-1 tvg-id="i24news-en" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/I24_News_logo.svg" group-title="Новости",i24News (EN)
-https://live.i24news.tv/stream/hls-en.m3u8
-#EXTINF:-1 tvg-id="i24news-he" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2b/I24_News_logo.svg" group-title="Новости",i24News (HE)
-https://live.i24news.tv/stream/hls-he.m3u8http://zabava-htlive.cdn.ngenix.net/hls/CH_5TV/variant.m3u8
-#EXTINF:-1 tvg-id="rentv" tvg-logo="http://epg.one/img2/18.png" group-title="Общественные" ,Рен ТВ
-http://zabava-htlive.cdn.ngenix.net/hls/CH_RENTV/variant.m3u8
-#EXTINF:-1 tvg-id="rossia1" tvg-logo="https://iptvx.one/picons/rossia1.png" group-title="Общественные" ,Россия 1 HD
-https://vgtrkregion-reg.cdnvideo.ru/vgtrk/0/russia1-hd/index.m3u8
-#EXTINF:-1 tvg-id="tv3-ru" tvg-logo="https://iptvx.one/picons/tv3-ru.png" group-title="Общественные",ТВ3
-https://zabava-htlive.cdn.ngenix.net/hls/CH_TV3/variant.m3u8
-
-#EXTINF:-1 tvg-id="360-news" tvg-logo="https://iptvx.one/picons/360-news.png" group-title="Информационные" ,360° Новости HD
-https://edge-tv-ll.facecast.io/evacoder_hls_hi/UBZfFgtKB1JwTwoDERNQVGGs/1080.m3u8
-#EXTINF:-1 tvg-id="rtd-ru" tvg-logo="https://iptvx.one/picons/rt-doc.png" group-title="Информационные",RTД HD
-http://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
-#EXTINF:-1 tvg-id="izrael-1" tvg-logo="https://iptvx.one/picons/israel.png" group-title="Общественные",Israel 1
-http://example.com/israel1/playlist.m3u8
-#EXTINF:-1 tvg-id="israel-2" tvg-logo="https://iptvx.one/picons/israel2.png" group-title="Общественные",Israel 2
-http://example.com/israel2/playlist.m3u8
-
-#EXTINF:-1 tvg-id="terra-ru" tvg-logo="https://iptvx.one/picons/terra-ru.png" group-title="Познавательные" ,TERRA
-https://livetv.mylifeisgood.net.ru/channels/terra.m3u8
-#EXTINF:-1 tvg-id="univer-tv" tvg-logo="https://iptvx.one/picons/univer-tv.png" group-title="Познавательные",UNIVER HD
-https://cdn.universmotri.ru/live/hq.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="nauka-20" tvg-logo="https://iptvx.one/picons/nauka-20.png" group-title="Познавательные" ,Наука
-https://vod.tuva.ru/nauka2/index.m3u8
-#EXTINF:-1 tvg-id="kultura" tvg-logo="https://iptvx.one/picons/kultura.png" group-title="Познавательные",Россия К HD
-http://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/kultura-hd/index.m3u8
+########## 👶 KIDS ##########
+#EXTINF:-1 tvg-id="karusel" group-title="KIDS",Карусель
+https://edge1.1internet.tv/dash-live2/streams/karusel/karusel.mpd
